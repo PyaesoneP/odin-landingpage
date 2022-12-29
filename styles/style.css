@@ -77,6 +77,11 @@ p {
     font-size: 18px;
 }
 
+.imagetext {
+    font-size: 18px;
+    color: #1F2937;
+}
+
 button {
     color: white;
     background-color: #3882F6;
@@ -97,4 +102,48 @@ img {
     height: 300px;
     width: 550px;
     object-fit: fill;
+}
+
+.infoheader {
+    color: #1F2937;
+    text-align: center;
+    font-size: 36px;
+    font-weight: bolder;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.imagesectioncontainer {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 30px;
+    padding-bottom: 100px;
+}
+
+.image {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-basis: 200px;
+    width: 20%;
+}
+
+.infoimage {
+    width: 150px;
+    height: 150px;
+    border-radius: 20px;
+}
+
+.imagecontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.infocontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
 }
